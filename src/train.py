@@ -44,8 +44,8 @@ def main():
     
     # Save model
     os.makedirs('models', exist_ok=True)
-    joblib.dump(model, 'models/model_train.pkl')
-    print("Model saved at models/model_train.pkl")
+    joblib.dump(model, 'model_train.pkl')
+    print("Model saved as model_train.pkl")
 
 if __name__ == "__main__":
     main()
